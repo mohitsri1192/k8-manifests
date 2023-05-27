@@ -4,10 +4,10 @@ metadata:
   name: mys-service
   namespace: my-sample-app
   labels:
-    app: nginx-deployment
+    app: nginx
 spec:
   selector:
-    app: nginx-deployment
+    app: nginx
   type: LoadBalancer
   ports:
     - protocol: TCP
